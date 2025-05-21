@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rildo Laurentino | Desenvolvedor Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Rildo Laurentino</h1>
+            <p>Desenvolvedor Web | Designer | Estudante de ADS</p>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+            <div class="sobre-content">
+                <img src="imagens/rildo.jpeg" alt="Foto de Rildo Laurentino" class="foto-perfil">
+                <div class="texto">
+                    <p>Olá! Eu sou Rildo Laurentino, apaixonado por desenvolvimento web. Atualmente estou cursando Análise e Desenvolvimento de Sistemas, com foco em HTML, CSS, JavaScript e WordPress.</p>
+                    <p>Adoro criar soluções criativas e eficientes, e estou sempre buscando aprender mais para me tornar um profissional completo na área de tecnologia.</p>
+                    <div class="dados">
+                        <p><i class="fas fa-calendar"></i> <strong>Idade:</strong> 48 anos</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Localização:</strong> Coronel Fabriciano, MG Brasil</p>
+                        <p><i class="fas fa-envelope"></i> <strong>E-mail:</strong> <a href="mailto:rildolaurentinodeoliveira@gmail.com">rildolaurentinodeoliveira@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="bg-cinza">
+        <div class="container">
+            <h2><i class="fas fa-code"></i> Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidade">
+                    <h3>Web Design</h3>
+                    <div class="barra"><div class="nivel" style="width: 90%"></div></div>
+                </div>
+                <div class="habilidade">
+                    <h3>HTML/CSS</h3>
+                    <div class="barra"><div class="nivel" style="width: 95%"></div></div>
+                </div>
+                <div class="habilidade">
+                    <h3>JavaScript</h3>
+                    <div class="barra"><div class="nivel" style="width: 80%"></div></div>
+                </div>
+                <div class="habilidade">
+                    <h3>WordPress</h3>
+                    <div class="barra"><div class="nivel" style="width: 75%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Portfólio -->
+<section id="portfolio">
+    <div class="container">
+        <h2><i class="fas fa-briefcase"></i> Portfólio</h2>
+        <div class="projetos-grid">
+
+            <div class="projeto">
+                <a href="https://rlo1345.github.io/projeto-confeitaria/" target="_blank">
+                    <img src="imagens/corporativo.jpg" alt="Projeto 1">
+                    <h3>Site Corporativo</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://rildolaurentino.github.io/Site-humanitario/" target="_blank">
+                    <img src="imagens/intitucional.jpg" alt="Projeto 2">
+                    <h3>Site Institucional</h3>
+                    <p>HTML, CSS, Responsivo</p>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://rildolaurentino.github.io/Projeto-Luxury/" target="_blank">
+                    <img src="imagens/imobiliario.jpg" alt="Projeto 3">
+                    <h3>Site imobiliario</h3>
+                    <p>HTML, CSS, JavaScript, Formulário</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contato -->
+    <section id="contato" class="bg-cinza">
+        <div class="container">
+            <h2><i class="fas fa-envelope"></i> Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="redes-sociais">
+                <a href="https://github.com/Rildolaurentino" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rildo-laurentino-oliveira-935725366/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/seuusuario" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:rildolaurentinodeoliveira@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; <span id="ano"></span> Rildo Laurentino. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
